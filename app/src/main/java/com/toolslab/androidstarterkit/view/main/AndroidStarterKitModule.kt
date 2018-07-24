@@ -7,7 +7,7 @@ import dagger.Provides
 class AndroidStarterKitModule {
 
     @Provides
-    fun providePresenter(): AndroidStarterKitContract.Presenter =
-            AndroidStarterKitPresenter()
+    fun providePresenter(androidStarterKitPresenter: AndroidStarterKitPresenter): AndroidStarterKitContract.Presenter =
+            androidStarterKitPresenter
 
 }
