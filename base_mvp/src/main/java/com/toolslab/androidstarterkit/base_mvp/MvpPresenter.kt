@@ -1,4 +1,4 @@
-package com.toolslab.base_mvp
+package com.toolslab.androidstarterkit.base_mvp
 
 interface MvpPresenter<in V : MvpView> {
 

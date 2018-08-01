@@ -1,4 +1,4 @@
-package com.toolslab.base_mvp
+package com.toolslab.androidstarterkit.base_mvp
 
 import com.nhaarman.mockito_kotlin.mock
 import com.nhaarman.mockito_kotlin.spy
